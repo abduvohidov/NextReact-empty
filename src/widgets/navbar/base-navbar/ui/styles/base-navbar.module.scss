@@ -1,0 +1,30 @@
+@import "./base-navbar-responsive.module.scss";
+.BaseNavbar {
+  .CreateResumeButton {
+    font-weight: 500;
+    font-size: 14px;
+    --yc-button-height: 33px;
+    --yc-button-padding: 17px;
+  }
+
+  &.Horizontal {
+    height: 100%;
+    padding: 0;
+  }
+
+  &.Vertical {
+    width: auto;
+  }
+}
+
+.NavLinks {
+  gap: 31px;
+  margin-left: 28px;
+  height: 15px;
+  list-style: none;
+  line-height: 1.1;
+
+  .ActiveLink {
+    color: #5e3800;
+  }
+}

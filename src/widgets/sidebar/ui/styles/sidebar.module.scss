@@ -1,0 +1,14 @@
+@import "./sidebar-responsive.module.scss";
+.Sidebar {
+  position: absolute;
+  width: 310px;
+  height: 100vh;
+  padding: 20px 0;
+  top: 0;
+  left: 0;
+  box-shadow: 7px 0 8px 0 rgba(79, 79, 79, 0.2);
+  background: var(--g-color-base-brand);
+  transition: transform ease 300ms;
+  transform: translateX(0);
+  z-index: 99;
+}

@@ -1,0 +1,13 @@
+@import "@/app/styles/variables";
+
+@include responsive($max, $breakpoint_md) {
+	.Sidebar {
+		width: 275px !important;
+	}
+}
+
+@include responsive($max, $breakpoint_s) {
+	.Sidebar {
+		width: 260px !important;
+	}
+}
